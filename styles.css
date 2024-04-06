@@ -1,0 +1,64 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1F1F1F;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 40px 40px 20px;
+    width: 340px;
+    margin: 0;
+}
+
+.author-picture {
+    border-radius: 50%;
+    width: 88px;
+    height: auto;
+}
+
+.name {
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.location {
+    color: #C4F829;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.description {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #333333;
+    color: white;
+    border-radius: 7px;
+    border: none;   
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.social-media button:hover {
+    background-color: #C4F829;
+    color: black;
+}
+
